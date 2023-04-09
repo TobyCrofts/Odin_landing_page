@@ -67,6 +67,7 @@ body {
 
 .text {
     display: flex;
+    color: white;
 }
 
 ul {
@@ -153,4 +154,46 @@ button {
     font-size: 24px;
     display: flex;
     margin-left: 500px;
+}
+
+.call-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 20px;
+    flex: 1;
+    gap: 20px;
+    width: 800px;
+    flex-basis: 800px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.call-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-right {
+    display: flex;
+
+}
+
+.Call-bold {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 100px;
+    color:white;
 }
